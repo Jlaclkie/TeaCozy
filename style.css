@@ -1,0 +1,52 @@
+html {
+    font-family: Helvatica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    border: 1px solid red;
+}
+
+#header {
+    height: 69px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    background-color: black;
+    border: 1px solid red;
+}
+
+#logo img{
+    height: 50px;
+    margin-left: 10px;
+    border: 1px solid red;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 20px;
+    border: 1px solid red;
+}
+
+a {
+    margin: 5px;
+    align-content: flex-end;
+    color: seashell;
+    text-decoration: underline;
+    font-family: Helvetica;
+    border: 1px solid red;
+}
+
+#mission {
+    padding-top: 69px;
+    background-image: url('./Resources/img-mission-background.jpeg');
+    border: 1px solid red;
+}
+
+#tea-of-the-month {
+    border: 1px solid red;
+}

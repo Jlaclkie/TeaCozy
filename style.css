@@ -1,52 +1,140 @@
 html {
-    font-family: Helvatica;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
     text-align: center;
+    width: 100%;
+
     border: 1px solid red;
+}
+body {
+    margin: 0px auto;
+    box-sizing: border-box;
 }
 
 #header {
-    height: 69px;
-    display: flex;
-    align-items: center;
     position: fixed;
+    height: 69px;
     width: 100%;
+    top: 0;
+    display: flex;
     justify-content: space-between;
     background-color: black;
-    border: 1px solid red;
 }
 
-#logo img{
-    height: 50px;
-    margin-left: 10px;
-    border: 1px solid red;
-}
-
-ul {
-    list-style-type: none;
+#logo {
     display: flex;
-    margin-right: 20px;
-    border: 1px solid red;
+    align-items: center;
 }
 
-a {
-    margin: 5px;
-    align-content: flex-end;
+img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+#navigation {
+    display: flex;
+}
+
+#navigation a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 5px;
     color: seashell;
-    text-decoration: underline;
-    font-family: Helvetica;
-    border: 1px solid red;
 }
 
 #mission {
-    padding-top: 69px;
     background-image: url('./Resources/img-mission-background.jpeg');
-    border: 1px solid red;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 1200px;
+    margin-top: 69px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+#banner {
+    background-color: black;
+    margin: 1200px auto;
 }
 
 #tea-of-the-month {
-    border: 1px solid red;
+    width: 1000px;
+    margin-top: 69px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#tea-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea img {
+    height: 200px;
+    width: 300px;
+}
+
+.tea h4 {
+    margin-top: 10px;
+}
+
+#location {
+    margin-top: 69px;
+    background-image: url('./Resources/img-locations-background.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+#topic {
+    display: flex;
+    justify-content: center;
+}
+
+#topic h2 {
+    width: 100%;
+    margin-bottom: 0;
+}
+
+#somewhere {
+    display: flex;
+    justify-content: center;
+}
+
+.address {
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    opacity: 1;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+}
+
+#contact {
+    height: 200px;
+}
+
+#inner-contact h2{
+    margin-top: 10px;
+}
+
+#copyright {
+    text-align: left;
+    margin-left: 20px;
 }
